@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.barra-navegacion {
+    background-color: #004080;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.barra-navegacion a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.barra-navegacion a:hover {
+    background-color: #0066cc;
+    border-radius: 5px;
+}
+
+.barra-navegacion a:active {
+    color: #ffd700; 
+}
+
+section {
+    padding: 40px;
+    background-color: #f0f4f8;
+    border-bottom: 1px solid #ccc;
+}
