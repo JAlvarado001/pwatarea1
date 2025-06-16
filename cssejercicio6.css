@@ -1,0 +1,28 @@
+body {
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.caja {
+    background-color: #cfe8fc;
+    border: 3px solid #0077cc;
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.caja p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+input[type="range"] {
+    width: 100%;
+}
